@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+npx create-react-app temp && mv temp/.gitignore . && rm -rf temp
+echo "node_modules/" >> .gitignore
+echo "dist/" >> .gitignore
+echo ".env" >> .gitignore
+echo "build/" >> .gitignore
